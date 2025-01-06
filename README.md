@@ -12,7 +12,7 @@ Local System setup :
         
     Primary dependencies with no prior knowledge of which programing language will be used.
         Git
-        TortiseGIT
+        TortoiseGIT
         BeyondCompare
         NotePad++
         
@@ -26,7 +26,7 @@ Local System setup :
 How to Clone the project from github to local system :
     - Generate ssh key
 		ssh-keygen //cmd
-	- Register ssh public key(ssh) to gitHub 
+    - Register ssh public key(ssh) to gitHub 
 		C:\Users\Ganesh\.ssh>dir
 		 Volume in drive C has no label.
 		 Volume Serial Number is 6259-D09F
@@ -44,7 +44,7 @@ How to Clone the project from github to local system :
 
 		C:\Users\Ganesh\.ssh>
     
-    - Download the project :
+- Download the project :
 		Ganesh@DESKTOP-OR3P9LO MINGW64 /e/project
 		$ git clone git@github.com:GaneshHub7/wildlife-tracking-system.git
 		Cloning into 'wildlife-tracking-system'...
@@ -58,13 +58,15 @@ How to Clone the project from github to local system :
 		remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 		Receiving objects: 100% (3/3), done.
 		
-	- Create the Python Environment 
+- Create the Python Environment 
 		To create a Python virtual environment with the name .wts_python_venv, you can follow these steps:
 
-		Navigate to your project directory: First, make sure you're in the directory where you want to create your virtual environment.
+		Navigate to your project directory: First, make sure you're in the directory where you want to create your virtual 
+                environment.
 
 		cd /path/to/your/project
-		Create the virtual environment: Use the following command to create the virtual environment with the desired name .wts_python_venv:
+		Create the virtual environment: Use the following command to create the virtual environment with the desired name 
+                .wts_python_venv:
 
 		python -m venv .wts_python_venv
 		This command will create a new directory called .wts_python_venv in your project directory.
@@ -78,6 +80,6 @@ How to Clone the project from github to local system :
 		deactivate
 		That's it! You now have a Python virtual environment named .wts_python_venv in your project directory.
 		
-	- Create .gitignore to avoide pusing the python venv to github.
+- Create .gitignore to avoid pushing the python_venv to github.
 		
 
