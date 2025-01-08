@@ -88,10 +88,10 @@ How to Clone the project from github to local system :
            git config --global user.name "Your Name"
            git config --global user.email "youremail@example.com"
   
-      2.Initializing a Git Repository
+  2.Initializing a Git Repository
 	git init
 
-      3. Cloning a Repository
+  3. Cloning a Repository
          git clone <repository-url>
   
       4. Checking Repository Status
