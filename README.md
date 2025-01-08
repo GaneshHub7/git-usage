@@ -81,5 +81,57 @@ How to Clone the project from github to local system :
 		That's it! You now have a Python virtual environment named .wts_python_venv in your project directory.
 		
 - Create .gitignore to avoid pushing the py_venv to github.
-		
+- git basic commands
+       1. Git Configuration:
+          Before you start using Git, it’s a good idea to set up your configuration (name and email) so that your commits are attributed 
+          to you.
+           git config --global user.name "Your Name"
+           git config --global user.email "youremail@example.com"
+  
+      2.Initializing a Git Repository
+	git init
+
+      3. Cloning a Repository
+         git clone <repository-url>
+  
+      4. Checking Repository Status
+          git status
+        
+       5. Adding Files
+          You need to add files to the staging area before committing them:
+            Add a specific file:
+             git add <file-name>
+           Add all changes (modified, deleted, and new files):
+            git add .
+  
+     6. Committing Changes:
+        git commit -m "message"
+
+     7. Viewing Commit History:
+           git log
+
+     8. Pushing Changes to Remote Repository:
+        git push origin <branch-name>
+        git push origin main
+
+    9.Pulling Latest Changes:
+       Before you start working on your local repository, it’s a good idea to pull the latest changes from the remote repository to 
+       avoid conflicts:
+          git pull origin main
+
+    10. Creating a Branch:
+        git branch <branch-name>
+
+    11.Switching Between Branches:
+  	git checkout <branch-name>
+
+    12.Merging Branches:
+       If you have made changes in a different branch and want to bring them into your current branch, you need to merge them:
+       Switch to the branch you want to merge changes into:
+          git checkout main
+       Merge the other branch into your current branch:
+         git merge <branch-name>
+
+   13.Deleting a Branch:
+      git branch -d <branch-name>
 
