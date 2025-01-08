@@ -59,27 +59,27 @@ How to Clone the project from github to local system :
 		Receiving objects: 100% (3/3), done.
 		
 - Create the Python Environment 
-		To create a Python virtual environment with the name .wts_python_venv, you can follow these steps:
+		To create a Python virtual environment with the name py_venv, you can follow these steps:
 
 		Navigate to your project directory: First, make sure you're in the directory where you want to create your virtual 
                 environment.
 
 		cd /path/to/your/project
 		Create the virtual environment: Use the following command to create the virtual environment with the desired name 
-                .wts_python_venv:
+                py_venv:
 
-		python -m venv .wts_python_venv
-		This command will create a new directory called .wts_python_venv in your project directory.
-		Note that the dot (.) at the beginning of the name makes the directory hidden (depending on your system).
+		python -m venv py_venv
+		This command will create a new directory called py_venv in your project directory.
+		
 		Activate the virtual environment: After creating the virtual environment, you'll need to activate it to start using it.
 
 		On Windows:
-		.\wts_python_venv\Scripts\activate
+		py_venv\Scripts\activate
 
 		Deactivate the virtual environment: To deactivate the virtual environment, simply run:
 		deactivate
 		That's it! You now have a Python virtual environment named .wts_python_venv in your project directory.
 		
-- Create .gitignore to avoid pushing the python_venv to github.
+- Create .gitignore to avoid pushing the py_venv to github.
 		
 
