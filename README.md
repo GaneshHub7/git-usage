@@ -135,3 +135,5 @@ How to Clone the project from github to local system :
    13.Deleting a Branch:
       git branch -d <branch-name>
 
+   14.Moving files inside to folder:
+      git mv [source] [dest]
