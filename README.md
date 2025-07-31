@@ -1,4 +1,4 @@
-# wildlife-tracking-system
+# git-usage
 
 Create a github account with your personal gmail account
 
